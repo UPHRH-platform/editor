@@ -1,0 +1,1462 @@
+export const courseEditorConfig = {
+  context: {
+    user: {
+      id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+      fullName: 'Vaibahv Bhuva',
+      firstName: 'Vaibhav',
+      lastName: 'Bhuva',
+      orgIds: ['01309282781705830427']
+    },
+    identifier: 'do_1133618765350748161337',
+    channel: '01309282781705830427',
+    // framework: 'nit_k-12',
+    // targetFWIds: ['nit_k-12'],
+    authToken: ' ',
+    sid: 'iYO2K6dOSdA0rwq7NeT1TDzS-dbqduvV',
+    did: '7e85b4967aebd6704ba1f604f20056b6',
+    uid: 'bf020396-0d7b-436f-ae9f-869c6780fc45',
+    additionalCategories: [
+      {
+        value: 'Textbook',
+        label: 'Textbook'
+      },
+      {
+        value: 'Lesson Plan',
+        label: 'Lesson Plan'
+      }
+    ],
+    pdata: {
+      id: 'dev.dock.portal',
+      ver: '2.8.0',
+      pid: 'creation-portal'
+    },
+    contextRollup: {
+      l1: '01307938306521497658',
+    },
+    tags: ['01307938306521497658'],
+    cdata: [
+      {
+        id: '01307938306521497658',
+        type: 'sourcing_organization',
+      },
+      {
+        type: 'project',
+        id: 'ec5cc850-3f71-11eb-aae1-fb99d9fb6737',
+      },
+      {
+        type: 'linked_collection',
+        id: 'do_113140468925825024117'
+      }
+    ],
+    timeDiff: 5,
+    objectRollup: {
+      l1: 'do_113140468925825024117',
+      l2: 'do_113140468926914560125'
+    },
+    host: '',
+    defaultLicense: 'CC BY 4.0',
+    endpoint: '/data/v3/telemetry',
+    env: 'collection_editor',
+    cloudStorageUrls: [
+      'https://s3.ap-south-1.amazonaws.com/ekstep-public-qa/',
+      'https://ekstep-public-qa.s3-ap-south-1.amazonaws.com/',
+      'https://dockstorage.blob.core.windows.net/sunbird-content-dock/']
+  },
+  config: {
+    mode: 'edit', // edit / review / read / sourcingReview
+    maxDepth: 4,
+    objectType: 'Collection',
+    primaryCategory: 'Course', // Professional Development Course, Curriculum Course
+    isRoot: true,
+    dialcodeMinLength: 2,
+    dialcodeMaxLength: 250,
+    iconClass: 'fa fa-book',
+    showAddCollaborator: true,
+    enableBulkUpload: false,
+    children: {},
+    hierarchy: {
+      level1: {
+        name: 'Module',
+        type: 'Unit',
+        mimeType: 'application/vnd.ekstep.content-collection',
+        contentType: 'CourseUnit',
+        primaryCategory: 'Course Unit',
+        iconClass: 'fa fa-folder-o',
+        children: {}
+      },
+      level2: {
+        name: 'Sub-Module',
+        type: 'Unit',
+        mimeType: 'application/vnd.ekstep.content-collection',
+        contentType: 'CourseUnit',
+        primaryCategory: 'Course Unit',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Content: [
+            'Explanation Content',
+            'Learning Resource',
+            'eTextbook',
+            'Teacher Resource',
+            'Course Assessment'
+          ]
+        }
+      },
+      level3: {
+        name: 'Sub-Sub-Module',
+        type: 'Unit',
+        mimeType: 'application/vnd.ekstep.content-collection',
+        contentType: 'CourseUnit',
+        primaryCategory: 'Course Unit',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Content: [
+            'Explanation Content',
+            'Learning Resource',
+            'eTextbook',
+            'Teacher Resource',
+            'Course Assessment'
+          ]
+        }
+      },
+      level4: {
+        name: 'Sub-Sub-Module',
+        type: 'Unit',
+        mimeType: 'application/vnd.ekstep.content-collection',
+        contentType: 'CourseUnit',
+        primaryCategory: 'Course Unit',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Content: [
+            'Explanation Content',
+            'Learning Resource',
+            'eTextbook',
+            'Teacher Resource',
+            'Course Assessment'
+          ]
+        }
+      }
+    },
+    contentPolicyUrl: '/term-of-use.html'
+  }
+};
+
+export const questionSetEditorConfig = {
+  context: {
+    programId: 'f72ad8b0-36df-11ec-a56f-4b503455085f',
+    contributionOrgId: '',
+    user: {
+      id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+      fullName: 'Vaibahv Bhuva',
+      firstName: 'Vaibhav',
+      lastName: 'Bhuva',
+      orgIds: ['01309282781705830427']
+    },
+    identifier: 'do_113776726898237440145', // do_11330102570702438417 , do_113449692707643392118, //do_113449692707643392118 , do_113460158539554816151
+    authToken: ' ',
+    sid: 'iYO2K6dOSdA0rwq7NeT1TDzS-dbqduvV',
+    did: '7e85b4967aebd6704ba1f604f20056b6',
+    uid: 'bf020396-0d7b-436f-ae9f-869c6780fc45',
+    channel: '01309282781705830427',
+    pdata: {
+      id: 'dev.dock.portal',
+      ver: '2.8.0',
+      pid: 'creation-portal'
+    },
+    contextRollup: {
+      l1: '01307938306521497658',
+    },
+    tags: ['01307938306521497658'],
+    cdata: [
+      {
+        id: '01307938306521497658',
+        type: 'sourcing_organization',
+      },
+      {
+        type: 'project',
+        id: 'ec5cc850-3f71-11eb-aae1-fb99d9fb6737',
+      },
+      {
+        type: 'linked_collection',
+        id: 'do_113140468925825024117'
+      }
+    ],
+    timeDiff: 5,
+    objectRollup: {
+      l1: 'do_113140468925825024117',
+      l2: 'do_113140468926914560125'
+    },
+    host: 'https://dev.sunbirded.org',
+    defaultLicense: 'CC BY 4.0',
+    endpoint: '/data/v3/telemetry',
+    env: 'questionset_editor',
+    framework: 'ekstep_ncert_k-12',
+    cloudStorageUrls: ['https://s3.ap-south-1.amazonaws.com/ekstep-public-qa/', 'https://ekstep-public-qa.s3-ap-south-1.amazonaws.com/',
+                      'https://sunbirddev.blob.core.windows.net/sunbird-content-dev/'],
+    board: 'CBSE',
+    medium: ['English'],
+    gradeLevel: ['Class 1'],
+    subject: ['Environmental Studies'],
+    topic: ['Forest'],
+    additionalCategories: [
+      {
+        value: 'Classroom Teaching Video',
+        label: 'Classroom Teaching Video'
+      },
+      {
+        value: 'Concept Map',
+        label: 'Concept Map'
+      },
+      {
+        value: 'Curiosity Question Set',
+        label: 'Curiosity Question Set'
+      },
+      {
+        value: 'Textbook',
+        label: 'Textbook'
+      },
+      {
+        value: 'Experiential Resource',
+        label: 'Experiential Resource'
+      },
+      {
+        value: 'Explanation Video',
+        label: 'Explanation Video'
+      },
+      {
+        value: 'Focus Spot',
+        label: 'Focus Spot'
+      },
+      {
+        value: 'Learning Outcome Definition',
+        label: 'Learning Outcome Definition'
+      },
+      {
+        value: 'Marking Scheme Rubric',
+        label: 'Marking Scheme Rubric'
+      },
+      {
+        value: 'Pedagogy Flow',
+        label: 'Pedagogy Flow'
+      },
+      {
+        value: 'Lesson Plan',
+        label: 'Lesson Plan'
+      },
+      {
+        value: 'Previous Board Exam Papers',
+        label: 'Previous Board Exam Papers'
+      },
+      {
+        value: 'TV Lesson',
+        label: 'TV Lesson'
+      }
+    ],
+    labels: {
+      save_collection_btn_label: 'Save as Draft',
+    },
+    correctionComments: false,
+    sourcingResourceStatus: true,
+  },
+  config: {
+    mode: 'edit', // edit / review / read / sourcingReview // orgReview
+    enableQuestionCreation: true,
+    enableAddFromLibrary: true,
+    editableFields: {
+      sourcingreview: ['instructions'],
+      orgreview: ['name', 'instructions', 'learningOutcome'],
+      review: ['name', 'description'],
+    },
+    maxDepth: 4,
+    objectType: 'QuestionSet',
+    primaryCategory: 'Practice Question Set',
+    isRoot: true,
+    iconClass: 'fa fa-book',
+    showAddCollaborator: false,
+    enableBulkUpload: true,
+    publicStorageAccount: 'https://dockstorage.blob.core.windows.net/',
+    hideSubmitForReviewBtn: false,
+    children: {
+      Question: [
+        'Multiple Choice Question',
+        'Subjective Question'
+      ]
+    },
+    addFromLibrary: false,
+    hierarchy: {
+      level1: {
+        name: 'Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Practice Question Set',
+        iconClass: 'fa fa-folder-o',
+        children: {},
+        addFromLibrary: true
+      },
+      level2: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Practice Question Set',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Subjective Question'
+          ]
+        },
+        addFromLibrary: true
+      },
+      level3: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Practice Question Set',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Subjective Question'
+          ]
+        }
+      }
+    },
+    contentPolicyUrl: '/term-of-use.html'
+  }
+};
+
+export const blueprintQuesSetConfig = {
+  "context": {
+    "identifier": "do_1137829907553566721201",
+    "channel": "0137044259332587522",
+    "authToken": "",
+    "sid": "gjLOTR7fkrfwbvYc8_Sk_tffDH60QDuD",
+    "did": "20e9900618fd5c41e6e9e65fd24353c9",
+    "uid": "5ed2c962-7df6-4f52-8e1f-773a305c35b0",
+    "additionalCategories": [
+      "Textbook",
+      "Lesson Plan",
+      "Curiosity Question Set",
+      "Experiential Resource",
+      "Explanation Video",
+      "Focus Spot",
+      "Learning Outcome Definition",
+      "Lesson Plan",
+      "Marking Scheme Rubric",
+      "Pedagogy Flow",
+      "Previous Board Exam Papers",
+      "TV Lesson",
+      "Textbook"
+    ],
+    "host": "http://localhost:3000",
+    "pdata": {
+      "id": "local.sunbird.portal",
+      "ver": "5.1.1",
+      "pid": "sunbird-portal"
+    },
+    "actor": {
+      "id": "5ed2c962-7df6-4f52-8e1f-773a305c35b0",
+      "type": "User"
+    },
+    "contextRollup": {
+      "l1": "0137044259332587522"
+    },
+    "tags": [
+      "0137044259332587522",
+      "0137044259332587522"
+    ],
+    "timeDiff": -0.082,
+    "endpoint": "/data/v3/telemetry",
+    "env": "questionset_editor",
+    "user": {
+      "id": "5ed2c962-7df6-4f52-8e1f-773a305c35b0",
+      "orgIds": [
+        "0137044259332587522"
+      ],
+      "organisations": {},
+      "fullName": "Creator Creator",
+      "firstName": "Creator",
+      "lastName": "Creator",
+      "isRootOrgAdmin": false
+    },
+    "channelData": {
+      "identifier": "0137044259332587522",
+      "lastStatusChangedOn": "2023-01-05T07:18:25.617+0000",
+      "code": "0137044259332587522",
+      "frameworks": [
+        {
+          "name": "General Nursing Midwifery",
+          "relation": "hasSequenceMember",
+          "identifier": "nirayama_frccl_fw",
+          "description": "Nirayama Fraccl framework",
+          "objectType": "Framework",
+          "status": "Live",
+          "type": "K-12"
+        }
+      ],
+      "consumerId": "ca8d2046-8d52-4ee8-ad65-c022f3591b25",
+      "channel": "in.ekstep",
+      "description": "UPHRH_TEST",
+      "assetAdditionalCategories": [],
+      "languageCode": [],
+      "createdOn": "2023-01-05T07:18:25.617+0000",
+      "objectType": "Channel",
+      "versionKey": "1682421923072",
+      "collectionPrimaryCategories": [
+        "Content Playlist",
+        "Course",
+        "Digital Textbook",
+        "Question paper",
+        "PIAA Assessment",
+        "Self Assessment"
+      ],
+      "contentPrimaryCategories": [
+        "Course Assessment",
+        "eTextbook",
+        "Explanation Content",
+        "Learning Resource",
+        "Practice Question Set",
+        "Teacher Resource",
+        "Exam Question",
+        "PIAA Question Set",
+        "Self Question Set",
+        "PIAA Assessment",
+        "Blueprint Question Set"
+      ],
+      "appId": "dev.dev.portal",
+      "name": "UPHRH_TEST",
+      "primaryCategories": [
+        {
+          "identifier": "obj-cat:asset_asset_all",
+          "name": "Asset",
+          "targetObjectType": "Asset"
+        },
+        {
+          "identifier": "obj-cat:bulk-question-set_questionset_all",
+          "name": "Bulk Question Set",
+          "targetObjectType": "QuestionSet"
+        },
+        {
+          "identifier": "obj-cat:certasset_asset_all",
+          "name": "CertAsset",
+          "targetObjectType": "Asset"
+        },
+        {
+          "identifier": "obj-cat:certificate-template_asset_all",
+          "name": "Certificate Template",
+          "targetObjectType": "Asset"
+        },
+        {
+          "identifier": "obj-cat:d1_collection_all",
+          "name": "d1",
+          "targetObjectType": "Collection"
+        },
+        {
+          "identifier": "obj-cat:digital-textbook_collection_all",
+          "name": "Digital Textbook",
+          "targetObjectType": "Collection"
+        },
+        {
+          "identifier": "obj-cat:multiple-choice-question_question_all",
+          "name": "Multiple Choice Question",
+          "targetObjectType": "Question"
+        },
+        {
+          "identifier": "obj-cat:piaa-assessment_collection_all",
+          "name": "PIAA Assessment",
+          "targetObjectType": "Collection"
+        },
+        {
+          "identifier": "obj-cat:self-question-set_questionset_all",
+          "name": "PIAA Question Set",
+          "targetObjectType": "QuestionSet"
+        },
+        {
+          "identifier": "obj-cat:piaa-question-set_questionset_all",
+          "name": "PIAA Question Set",
+          "targetObjectType": "QuestionSet"
+        },
+        {
+          "identifier": "obj-cat:question-paper_collection_all",
+          "name": "Question Paper",
+          "targetObjectType": "Collection"
+        },
+        {
+          "identifier": "obj-cat:self-assessment_collection_all",
+          "name": "Self Assessment",
+          "targetObjectType": "Collection"
+        },
+        {
+          "identifier": "obj-cat:blueprint-question-set_questionset_0137044259332587522",
+          "name": "Blueprint Question Set",
+          "targetObjectType": "QuestionSet"
+        },
+        {
+          "identifier": "obj-cat:course_collection_0137044259332587522",
+          "name": "Course",
+          "targetObjectType": "Collection"
+        },
+        {
+          "identifier": "obj-cat:practice-question-set_questionset_0137044259332587522",
+          "name": "Practice Question Set",
+          "targetObjectType": "QuestionSet"
+        },
+        {
+          "identifier": "obj-cat:practice-question-set_questionset_all_questionset_0137044259332587522",
+          "name": "Practice Question Set",
+          "targetObjectType": "QuestionSet"
+        }
+      ],
+      "additionalCategories": [
+        "Asset",
+        "Blueprint Question Set",
+        "Bulk Question Set",
+        "CertAsset",
+        "Certificate Template",
+        "Content Playlist",
+        "Course",
+        "Course Assessment",
+        "d1",
+        "Digital Textbook",
+        "eTextbook",
+        "Exam Question",
+        "Explanation Content",
+        "Learning Resource",
+        "Multiple Choice Question",
+        "PIAA Assessment",
+        "PIAA Question Set",
+        "Practice Question Set",
+        "Question paper",
+        "Self Assessment",
+        "Self Question Set",
+        "Teacher Resource",
+        "Template"
+      ],
+      "lastUpdatedOn": "2023-04-25T11:25:23.072+0000",
+      "collectionAdditionalCategories": [
+        "Textbook",
+        "Lesson Plan"
+      ],
+      "assetPrimaryCategories": [
+        "Asset",
+        "CertAsset",
+        "Certificate Template"
+      ],
+      "contentAdditionalCategories": [
+        "Textbook",
+        "Lesson Plan",
+        "Curiosity Question Set",
+        "Experiential Resource",
+        "Explanation Video",
+        "Focus Spot",
+        "Learning Outcome Definition",
+        "Lesson Plan",
+        "Marking Scheme Rubric",
+        "Pedagogy Flow",
+        "Previous Board Exam Papers",
+        "TV Lesson",
+        "Textbook"
+      ],
+      "status": "Live",
+      "defaultFramework": "nirayama_frccl_fw"
+    },
+    "cloudStorageUrls": [],
+    "cloudStorage": {
+      "presigned_headers": {
+        "x-ms-blob-type": "BlockBlob"
+      }
+    },
+    "framework": "nirayama_frccl_fw"
+  },
+  "config": {
+    "mode": "edit",
+    "questionSet": {
+      "maxQuestionsLimit": 500
+    },
+    "collection": {
+      "maxContentsLimit": 1200
+    },
+    "showAddCollaborator": false,
+    "maxDepth": 1,
+    "addFromLibraryEnabled": false,
+    "enableAddFromLibrary": false,
+    "objectType": "QuestionSet",
+    "primaryCategory": "Blueprint Question Set",
+    "isRoot": true,
+    "iconClass": "fa fa-book",
+    "children": {},
+    "hierarchy": {
+      "level1": {
+        "name": "Section",
+        "type": "Unit",
+        "mimeType": "application/vnd.sunbird.questionset",
+        "primaryCategory": "Blueprint Question Set",
+        "iconClass": "fa fa-folder-o",
+        "children": {
+          "Question": [
+            "Multiple Choice Question"
+          ]
+        }
+      }
+    }
+  }
+
+  }
+
+export const questionEditorConfig = {
+  context: {
+    user: {
+      id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+      fullName: 'Vaibahv Bhuva',
+      firstName: 'Vaibhav',
+      lastName: 'Bhuva',
+      orgIds: ['01309282781705830427']
+    },
+    identifier: 'do_113395509928394752193', // do_113388220110217216123
+    collectionIdentifier: 'do_1133872840783626241899',
+    collectionPrimaryCategory: 'Exam Question Set',
+    collectionObjectType: 'QuestionSet',
+    sourcingResourceStatus: 'Review Pending',
+    sourcingResourceStatusClass: 'sb-color-warning',
+    authToken: ' ',
+    sid: 'iYO2K6dOSdA0rwq7NeT1TDzS-dbqduvV',
+    did: '7e85b4967aebd6704ba1f604f20056b6',
+    uid: 'bf020396-0d7b-436f-ae9f-869c6780fc45',
+    channel: '01309282781705830427',
+    pdata: {
+      id: 'dev.dock.portal',
+      ver: '2.8.0',
+      pid: 'creation-portal'
+    },
+    contextRollup: {
+      l1: '01307938306521497658',
+    },
+    tags: ['01307938306521497658'],
+    cdata: [
+      {
+        id: '01307938306521497658',
+        type: 'sourcing_organization',
+      },
+      {
+        type: 'project',
+        id: 'ec5cc850-3f71-11eb-aae1-fb99d9fb6737',
+      },
+      {
+        type: 'linked_collection',
+        id: 'do_113140468925825024117'
+      }
+    ],
+    timeDiff: 5,
+    objectRollup: {
+      l1: 'do_113140468925825024117',
+      l2: 'do_113140468926914560125'
+    },
+    host: 'https://dev.sunbirded.org',
+    defaultLicense: 'CC BY 4.0',
+    endpoint: '/data/v3/telemetry',
+    env: 'questionset_editor',
+    framework: 'ekstep_ncert_k-12',
+    cloudStorageUrls: ['https://s3.ap-south-1.amazonaws.com/ekstep-public-qa/', 'https://ekstep-public-qa.s3-ap-south-1.amazonaws.com/',
+                      'https://sunbirddev.blob.core.windows.net/sunbird-content-dev/'],
+    board: 'CBSE',
+    medium: ['English'],
+    gradeLevel: ['Class 1'],
+    subject: ['Environmental Studies'],
+    topic: ['Forest'],
+    additionalCategories: [
+      {
+        value: 'Classroom Teaching Video',
+        label: 'Classroom Teaching Video'
+      },
+      {
+        value: 'Concept Map',
+        label: 'Concept Map'
+      },
+      {
+        value: 'Curiosity Question Set',
+        label: 'Curiosity Question Set'
+      },
+      {
+        value: 'Textbook',
+        label: 'Textbook'
+      },
+      {
+        value: 'Experiential Resource',
+        label: 'Experiential Resource'
+      },
+      {
+        value: 'Explanation Video',
+        label: 'Explanation Video'
+      },
+      {
+        value: 'Focus Spot',
+        label: 'Focus Spot'
+      },
+      {
+        value: 'Learning Outcome Definition',
+        label: 'Learning Outcome Definition'
+      },
+      {
+        value: 'Marking Scheme Rubric',
+        label: 'Marking Scheme Rubric'
+      },
+      {
+        value: 'Pedagogy Flow',
+        label: 'Pedagogy Flow'
+      },
+      {
+        value: 'Lesson Plan',
+        label: 'Lesson Plan'
+      },
+      {
+        value: 'Previous Board Exam Papers',
+        label: 'Previous Board Exam Papers'
+      },
+      {
+        value: 'TV Lesson',
+        label: 'TV Lesson'
+      }
+    ],
+    labels: {
+      save_collection_btn_label: 'Save as Draft',
+      reject_collection_btn_label: 'Request Changes',
+    }
+  },
+  config: {
+    mode: 'sourcingReview', // edit / review / read / sourcingReview // orgReview
+    objectType: 'Question',
+    primaryCategory: 'Multiple Choice Question',
+    mimeType: 'application/vnd.sunbird.question',
+    interactionType: 'choice',
+    showSourcingStatus: true,
+    showCorrectionComments: false,
+    isReadOnlyMode: true,
+    editableFields: {
+      //sourcingreview: ['instructions'],
+      orgReview: ['name', 'learningOutcome'],
+      review: ['name', 'learningOutcome'],
+    }
+  }
+};
+
+export const collectionEditorConfig = {
+  context: {
+      identifier: 'do_113367576496021504151',
+      channel: '01309282781705830427',
+      authToken: '',
+      sid: 'vLpZ1rFl6-sxMVHi4RrmrlHw0HsX9ggC',
+      did: '1d8e290dd3c2a6a9eeac58568cdef28d',
+      uid: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+      additionalCategories: {},
+      host: 'http://localhost:3000',
+      pdata: {
+          id: 'local.sunbird.portal',
+          ver: '4.1.0',
+          pid: 'sunbird-portal'
+      },
+      actor: {
+          id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+          type: 'User'
+      },
+      contextRollup: {
+          l1: '01309282781705830427'
+      },
+      tags: [
+          '01309282781705830427',
+          '01309282781705830427'
+      ],
+      timeDiff: -0.463,
+      endpoint: '/data/v3/telemetry',
+      env: 'collection_editor',
+      user: {
+          id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+          orgIds: [
+              '01309282781705830427'
+          ],
+          organisations: {},
+          fullName: 'N11',
+          firstName: 'N11',
+          lastName: '',
+          isRootOrgAdmin: true
+      },
+      channelData: {},
+      framework: 'ekstep_ncert_k-12',
+      cloudStorage: {
+        presigned_headers: {
+          'x-ms-blob-type': 'BlockBlob' // This header is specific to azure storage provider.
+          /* TODO: if more configurations comes for cloud service provider
+             than we have do in more generic way like below:
+             For example:
+             cloudStorage: {
+                provider: 'azure' // azure, aws, etc..
+                azure: {
+                  url: 'https://www.azureblogstorage.com'
+                  presigned_headers: {
+                    x-ms-blob-type: 'BlockBlob'
+                  }
+                }
+             }
+          */
+        }
+      }
+  },
+  config: {
+      mode: 'edit',
+      showAddCollaborator: true,
+      enableBulkUpload: false,
+      maxDepth: 4,
+      objectType: 'Collection',
+      primaryCategory: 'Digital Textbook',
+      isRoot: true,
+      iconClass: 'fa fa-book',
+      children: {},
+      hierarchy: {
+          level1: {
+              name: 'Textbook Unit',
+              type: 'Unit',
+              mimeType: 'application/vnd.ekstep.content-collection',
+              contentType: 'TextBookUnit',
+              primaryCategory: 'Textbook Unit',
+              iconClass: 'fa fa-folder-o',
+              children: {
+                Content: [
+                  'Explanation Content',
+                  'Learning Resource',
+                  'eTextbook',
+                  'Teacher Resource',
+                  'Course Assessment'
+                ]
+              }
+          },
+          level2: {
+              name: 'Textbook Unit',
+              type: 'Unit',
+              mimeType: 'application/vnd.ekstep.content-collection',
+              contentType: 'TextBookUnit',
+              primaryCategory: 'Textbook Unit',
+              iconClass: 'fa fa-folder-o',
+              children: {
+                Content: [
+                  'Explanation Content',
+                  'Learning Resource',
+                  'eTextbook',
+                  'Teacher Resource',
+                  'Course Assessment'
+                ]
+              }
+          },
+          level3: {
+              name: 'Textbook Unit',
+              type: 'Unit',
+              mimeType: 'application/vnd.ekstep.content-collection',
+              contentType: 'TextBookUnit',
+              primaryCategory: 'Textbook Unit',
+              iconClass: 'fa fa-folder-o',
+              children: {
+                Content: [
+                  'Explanation Content',
+                  'Learning Resource',
+                  'eTextbook',
+                  'Teacher Resource',
+                  'Course Assessment'
+                ]
+              }
+          },
+          level4: {
+              name: 'Textbook Unit',
+              type: 'Unit',
+              mimeType: 'application/vnd.ekstep.content-collection',
+              contentType: 'TextBookUnit',
+              primaryCategory: 'Textbook Unit',
+              iconClass: 'fa fa-folder-o',
+              children: {
+                Content: [
+                  'Explanation Content',
+                  'Learning Resource',
+                  'eTextbook',
+                  'Teacher Resource',
+                  'Course Assessment'
+                ]
+              }
+          }
+      }
+  }
+};
+
+
+export const observationEditorConfig = {
+  context: {
+    programId: 'f72ad8b0-36df-11ec-a56f-4b503455085f',
+    contributionOrgId: '',
+    user: {
+      id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+      fullName: 'Vaibahv Bhuva',
+      firstName: 'Vaibhav',
+      lastName: 'Bhuva',
+      orgIds: ['01309282781705830427']
+    },
+    // identifier: 'do_113395089840529408131', // 'do_1132393548335759361558', // do_11330102570702438417
+    identifier: 'do_1135439342598225921356',  // 'do_1133610108714352641210', // Observation
+    // identifier: 'do_113395099906416640139', // survey
+    // identifier: 'do_1134357224765685761203', // Observation With Rubrics
+    authToken: ' ',
+    sid: 'iYO2K6dOSdA0rwq7NeT1TDzS-dbqduvV',
+    did: '7e85b4967aebd6704ba1f604f20056b6',
+    uid: 'bf020396-0d7b-436f-ae9f-869c6780fc45',
+    channel: '01309282781705830427',
+    pdata: {
+      id: 'dev.dock.portal',
+      ver: '2.8.0',
+      pid: 'creation-portal'
+    },
+    contextRollup: {
+      l1: '01307938306521497658',
+    },
+    tags: ['01307938306521497658'],
+    cdata: [
+      {
+        id: '01307938306521497658',
+        type: 'sourcing_organization',
+      },
+      {
+        type: 'project',
+        id: 'ec5cc850-3f71-11eb-aae1-fb99d9fb6737',
+      },
+      {
+        type: 'linked_collection',
+        id: 'do_113140468925825024117'
+      }
+    ],
+    timeDiff: 5,
+    objectRollup: {
+      l1: 'do_113140468925825024117',
+      l2: 'do_113140468926914560125'
+    },
+    host: 'https://dock.sunbirded.org',
+    defaultLicense: 'CC BY 4.0',
+    endpoint: '/data/v3/telemetry',
+    env: 'questionset_editor',
+    framework: 'ekstep_ncert_k-12',
+    cloudStorageUrls: ['https://s3.ap-south-1.amazonaws.com/ekstep-public-qa/', 'https://ekstep-public-qa.s3-ap-south-1.amazonaws.com/',
+                      'https://sunbirddev.blob.core.windows.net/sunbird-content-dev/'],
+    subject: ['Environmental Studies'],
+    topic: ['Forest'],
+    additionalCategories: [
+      {
+        value: 'Classroom Teaching Video',
+        label: 'Classroom Teaching Video'
+      },
+      {
+        value: 'Concept Map',
+        label: 'Concept Map'
+      },
+      {
+        value: 'Curiosity Question Set',
+        label: 'Curiosity Question Set'
+      },
+      {
+        value: 'Textbook',
+        label: 'Textbook'
+      },
+      {
+        value: 'Experiential Resource',
+        label: 'Experiential Resource'
+      },
+      {
+        value: 'Explanation Video',
+        label: 'Explanation Video'
+      },
+      {
+        value: 'Focus Spot',
+        label: 'Focus Spot'
+      },
+      {
+        value: 'Learning Outcome Definition',
+        label: 'Learning Outcome Definition'
+      },
+      {
+        value: 'Marking Scheme Rubric',
+        label: 'Marking Scheme Rubric'
+      },
+      {
+        value: 'Pedagogy Flow',
+        label: 'Pedagogy Flow'
+      },
+      {
+        value: 'Lesson Plan',
+        label: 'Lesson Plan'
+      },
+      {
+        value: 'Previous Board Exam Papers',
+        label: 'Previous Board Exam Papers'
+      },
+      {
+        value: 'TV Lesson',
+        label: 'TV Lesson'
+      }
+    ],
+    labels: {
+      save_collection_btn_label: 'Save as Draft',
+    }
+  },
+  config: {
+    mode: 'edit', // edit / review / read / sourcingReview // orgReview
+    editableFields: {
+      //sourcingreview: ['instructions'],
+      orgreview: ['name', 'instructions', 'learningOutcome'],
+      review: ['name', 'description'],
+    },
+    maxDepth: 4,
+    objectType: 'QuestionSet',
+    // primaryCategory: 'Observation',
+    primaryCategory: 'Observation',
+    isRoot: true,
+    iconClass: 'fa fa-book',
+    showAddCollaborator: false,
+    enableBulkUpload: true,
+    publicStorageAccount: 'https://dockstorage.blob.core.windows.net/',
+    children: {
+      Question: [
+        'Multiple Choice Question',
+        'Slider',
+        'Text',
+        'Date'
+      ]
+    },
+    hierarchy: {
+      level1: {
+        name: 'Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      },
+      level2: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      },
+      level3: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      }
+    },
+    contentPolicyUrl: '/term-of-use.html'
+  }
+};
+
+export const surveyEditorConfig = {
+  context: {
+    programId: 'f72ad8b0-36df-11ec-a56f-4b503455085f',
+    contributionOrgId: '',
+    user: {
+      id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+      fullName: 'Vaibahv Bhuva',
+      firstName: 'Vaibhav',
+      lastName: 'Bhuva',
+      orgIds: ['01309282781705830427']
+    },
+    // identifier: 'do_113395089840529408131', // 'do_1132393548335759361558', // do_11330102570702438417
+    // identifier: 'do_11343286031200256013',  // 'do_1133610108714352641210', // Observation
+    identifier: 'do_113395099906416640139', // survey
+    // identifier: 'do_1134357224765685761203', // Observation With Rubrics
+    authToken: ' ',
+    sid: 'iYO2K6dOSdA0rwq7NeT1TDzS-dbqduvV',
+    did: '7e85b4967aebd6704ba1f604f20056b6',
+    uid: 'bf020396-0d7b-436f-ae9f-869c6780fc45',
+    channel: '01309282781705830427',
+    pdata: {
+      id: 'dev.dock.portal',
+      ver: '2.8.0',
+      pid: 'creation-portal'
+    },
+    contextRollup: {
+      l1: '01307938306521497658',
+    },
+    tags: ['01307938306521497658'],
+    cdata: [
+      {
+        id: '01307938306521497658',
+        type: 'sourcing_organization',
+      },
+      {
+        type: 'project',
+        id: 'ec5cc850-3f71-11eb-aae1-fb99d9fb6737',
+      },
+      {
+        type: 'linked_collection',
+        id: 'do_113140468925825024117'
+      }
+    ],
+    timeDiff: 5,
+    objectRollup: {
+      l1: 'do_113140468925825024117',
+      l2: 'do_113140468926914560125'
+    },
+    host: 'https://dock.sunbirded.org',
+    defaultLicense: 'CC BY 4.0',
+    endpoint: '/data/v3/telemetry',
+    env: 'questionset_editor',
+    framework: 'ekstep_ncert_k-12',
+    cloudStorageUrls: ['https://s3.ap-south-1.amazonaws.com/ekstep-public-qa/', 'https://ekstep-public-qa.s3-ap-south-1.amazonaws.com/',
+                      'https://sunbirddev.blob.core.windows.net/sunbird-content-dev/'],
+    board: 'CBSE',
+    medium: ['English'],
+    gradeLevel: ['Class 1'],
+    subject: ['Environmental Studies'],
+    topic: ['Forest'],
+    additionalCategories: [
+      {
+        value: 'Classroom Teaching Video',
+        label: 'Classroom Teaching Video'
+      },
+      {
+        value: 'Concept Map',
+        label: 'Concept Map'
+      },
+      {
+        value: 'Curiosity Question Set',
+        label: 'Curiosity Question Set'
+      },
+      {
+        value: 'Textbook',
+        label: 'Textbook'
+      },
+      {
+        value: 'Experiential Resource',
+        label: 'Experiential Resource'
+      },
+      {
+        value: 'Explanation Video',
+        label: 'Explanation Video'
+      },
+      {
+        value: 'Focus Spot',
+        label: 'Focus Spot'
+      },
+      {
+        value: 'Learning Outcome Definition',
+        label: 'Learning Outcome Definition'
+      },
+      {
+        value: 'Marking Scheme Rubric',
+        label: 'Marking Scheme Rubric'
+      },
+      {
+        value: 'Pedagogy Flow',
+        label: 'Pedagogy Flow'
+      },
+      {
+        value: 'Lesson Plan',
+        label: 'Lesson Plan'
+      },
+      {
+        value: 'Previous Board Exam Papers',
+        label: 'Previous Board Exam Papers'
+      },
+      {
+        value: 'TV Lesson',
+        label: 'TV Lesson'
+      }
+    ],
+    labels: {
+      save_collection_btn_label: 'Save as Draft',
+    }
+  },
+  config: {
+    mode: 'edit', // edit / review / read / sourcingReview // orgReview
+    editableFields: {
+      //sourcingreview: ['instructions'],
+      orgreview: ['name', 'instructions', 'learningOutcome'],
+      review: ['name', 'description'],
+    },
+    maxDepth: 4,
+    objectType: 'QuestionSet',
+    // primaryCategory: 'Observation',
+    primaryCategory: 'Survey',
+    isRoot: true,
+    iconClass: 'fa fa-book',
+    showAddCollaborator: false,
+    enableBulkUpload: true,
+    enablePagination: true,
+    publicStorageAccount: 'https://dockstorage.blob.core.windows.net/',
+    children: {
+      Question: [
+        'Multiple Choice Question',
+        'Slider',
+        'Text',
+        'Date'
+      ]
+    },
+    hierarchy: {
+      level1: {
+        name: 'Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      },
+      level2: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      },
+      level3: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      }
+    },
+    contentPolicyUrl: '/term-of-use.html'
+  }
+};
+
+export const observationRubricsEditorConfig = {
+  context: {
+    programId: 'f72ad8b0-36df-11ec-a56f-4b503455085f',
+    contributionOrgId: '',
+    user: {
+      id: '5a587cc1-e018-4859-a0a8-e842650b9d64',
+      fullName: 'Vaibahv Bhuva',
+      firstName: 'Vaibhav',
+      lastName: 'Bhuva',
+      orgIds: ['01309282781705830427']
+    },
+    // identifier: 'do_113395089840529408131', // 'do_1132393548335759361558', // do_11330102570702438417
+    // identifier: 'do_11343286031200256013',  // 'do_1133610108714352641210', // Observation
+    // identifier: 'do_113395099906416640139', // survey
+    identifier: 'do_1134357224765685761203', // Observation With Rubrics Framework - tpd
+    // identifier: 'do_113437470826086400127', // Observation With Rubrics Framework - nit_tpd
+    authToken: ' ',
+    sid: 'iYO2K6dOSdA0rwq7NeT1TDzS-dbqduvV',
+    did: '7e85b4967aebd6704ba1f604f20056b6',
+    uid: 'bf020396-0d7b-436f-ae9f-869c6780fc45',
+    channel: '01309282781705830427',
+    pdata: {
+      id: 'dev.dock.portal',
+      ver: '2.8.0',
+      pid: 'creation-portal'
+    },
+    contextRollup: {
+      l1: '01307938306521497658',
+    },
+    tags: ['01307938306521497658'],
+    cdata: [
+      {
+        id: '01307938306521497658',
+        type: 'sourcing_organization',
+      },
+      {
+        type: 'project',
+        id: 'ec5cc850-3f71-11eb-aae1-fb99d9fb6737',
+      },
+      {
+        type: 'linked_collection',
+        id: 'do_113140468925825024117'
+      }
+    ],
+    timeDiff: 5,
+    objectRollup: {
+      l1: 'do_113140468925825024117',
+      l2: 'do_113140468926914560125'
+    },
+    host: 'https://dock.sunbirded.org',
+    defaultLicense: 'CC BY 4.0',
+    endpoint: '/data/v3/telemetry',
+    env: 'questionset_editor',
+    framework: 'tpd',
+    cloudStorageUrls: ['https://s3.ap-south-1.amazonaws.com/ekstep-public-qa/', 'https://ekstep-public-qa.s3-ap-south-1.amazonaws.com/',
+                      'https://sunbirddev.blob.core.windows.net/sunbird-content-dev/'],
+    board: 'CBSE',
+    medium: ['English'],
+    gradeLevel: ['Class 1'],
+    subject: ['Environmental Studies'],
+    topic: ['Forest'],
+    additionalCategories: [
+      {
+        value: 'Classroom Teaching Video',
+        label: 'Classroom Teaching Video'
+      },
+      {
+        value: 'Concept Map',
+        label: 'Concept Map'
+      },
+      {
+        value: 'Curiosity Question Set',
+        label: 'Curiosity Question Set'
+      },
+      {
+        value: 'Textbook',
+        label: 'Textbook'
+      },
+      {
+        value: 'Experiential Resource',
+        label: 'Experiential Resource'
+      },
+      {
+        value: 'Explanation Video',
+        label: 'Explanation Video'
+      },
+      {
+        value: 'Focus Spot',
+        label: 'Focus Spot'
+      },
+      {
+        value: 'Learning Outcome Definition',
+        label: 'Learning Outcome Definition'
+      },
+      {
+        value: 'Marking Scheme Rubric',
+        label: 'Marking Scheme Rubric'
+      },
+      {
+        value: 'Pedagogy Flow',
+        label: 'Pedagogy Flow'
+      },
+      {
+        value: 'Lesson Plan',
+        label: 'Lesson Plan'
+      },
+      {
+        value: 'Previous Board Exam Papers',
+        label: 'Previous Board Exam Papers'
+      },
+      {
+        value: 'TV Lesson',
+        label: 'TV Lesson'
+      }
+    ],
+    labels: {
+      save_collection_btn_label: 'Save as Draft',
+    }
+  },
+  config: {
+    mode: 'edit', // edit / review / read / sourcingReview // orgReview
+    editableFields: {
+      //sourcingreview: ['instructions'],
+      orgreview: ['name', 'instructions', 'learningOutcome'],
+      review: ['name', 'description'],
+    },
+    maxDepth: 4,
+    objectType: 'QuestionSet',
+    // primaryCategory: 'Observation',
+    primaryCategory: 'Observation With rubrics',
+    isRoot: true,
+    iconClass: 'fa fa-book',
+    showAddCollaborator: false,
+    enableBulkUpload: true,
+    enablePagination:true,
+    publicStorageAccount: 'https://dockstorage.blob.core.windows.net/',
+    children: {
+      Question: [
+        'Multiple Choice Question',
+        'Slider',
+        'Text',
+        'Date'
+      ]
+    },
+    hierarchy: {
+      level1: {
+        name: 'Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      },
+      level2: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      },
+      level3: {
+        name: 'Sub Section',
+        type: 'Unit',
+        mimeType: 'application/vnd.sunbird.questionset',
+        primaryCategory: 'Observation',
+        iconClass: 'fa fa-folder-o',
+        children: {
+          Question: [
+            'Multiple Choice Question',
+            'Slider',
+            'Text',
+            'Date'
+          ]
+        }
+      }
+    },
+    contentPolicyUrl: '/term-of-use.html'
+  }
+};
